@@ -1,0 +1,33 @@
+div {   
+    font: 12px, Arial, Helvetica, sans-serif;
+    border: 15px solid gray;
+    margin: 0.5%;
+    padding: 0.5%
+}
+
+#a{ 
+    background-color: aquamarine;
+}
+
+#b{
+    float: left;
+    width: 25%;
+    background-color: coral;
+}
+
+#c{
+    background-color: cornflowerblue;
+    float: left;
+    width: 44%;
+}
+
+#d{
+    background-color: darksalmon;
+    float: left;
+}
+
+#e{
+    background-color: darkseagreen;
+    text-align: center;
+    clear: left;
+}
