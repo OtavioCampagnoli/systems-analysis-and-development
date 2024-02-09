@@ -93,4 +93,20 @@ Em resumo, os ISVs são empresas que criam e vendem software como produto indepe
 
 ### Ferramentas necessárias para utilizar um CMS
 
-Iremos usar o CMS WordPress e precisaremos configurar o APACHE HTTP SERVER, PHP E MYSQL. Nesse caso podemos um dos seguintes pacotes para instalar e configurar o APACHE HTTP SERVER, PHP e MYSQL. Seria as seguintes ferramentas: **WAMP** ou **XAMP** ou **Easyphp**.
+Iremos usar o CMS WordPress e precisaremos configurar o APACHE HTTP SERVER, PHP E MYSQL. Nesse caso podemos um dos seguintes pacotes para instalar e configurar o APACHE HTTP SERVER, PHP e MYSQL. Seria as seguintes ferramentas: **WAMP** ou **XAMPP** ou **Easyphp**.
+
+Basicamente para utilizar o Wordpress (CMS) você irá precisar fazer os seguintes passos:
+
+1. Baixar e instalar o XAMPP ou WAMMP, no caso eu usei o XAMPP;
+2. Após isso você deverá iniciar os serviços do Apache para o server e do mysql para poder configurar posteriormente o banco de dados;
+3. No caso o CMS Content Manegment escolhido foi o WordPress, onde você deve entrar no site oficial e procurar fazer o download;
+4. Após baixar o WordPress você tem que ver o caminho aonde foi baixado o XAMPP e dentro da pasta do XAMPP procurar a htdocs;
+5. Dentro dessa pasta você cria a pasta do projeto e coloca dentro da pasta do projeto a pasta do WordPress já com os itens extraídos.
+6. Agora você tem que "configurar" o usuario do seu MySQL e criar um banco de dados para esse projeto;
+7. Para isso entre **http://localhost/phpmyadmin/**
+8. Após isso você verificar o usuario root que provavelmente estará criado ou criar um outro usuário; 
+9. Após criar o usuário e a base de dados no MySQL (de preferência com o mesmo nome do projeto) você tem que ir no navegador, e passar o caminho do servidor, que será nesse caso: **http://localhost/nomedoprojeto/nomedapastadowordpress**
+10. Sendo assim ele irá abrir uma página contendo o processo de instalação do WordPress, após isso é só seguir;
+11. Você deverá criar o projeto passando o nome do banco de dados, o usuario que voce criou ou pegou do MySql (passo 8);
+12. Se você fez tudo certo, verifique o caminho http://localhost/nomedoprojeto/wordpress/wp-login.php
+13. Faça login com o usuário cadastro e se divirta explorando os recursos que o WordPress oferece.
