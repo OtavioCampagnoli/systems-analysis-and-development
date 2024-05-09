@@ -1,0 +1,42 @@
+div {
+  border: 1px solid gray;
+  margin: 5px;
+  padding: 5px;
+}
+
+#container {
+  margin: 0 auto;
+  text-align: center;
+  width: 960px; /*Padrao muito utilizado em diversos sites*/
+}
+
+#a {
+  background-color: aquamarine;
+}
+
+#b {    
+  float: left;
+  width: 230px;
+  margin-top: 0;
+  background-color: darksalmon;
+}
+
+#c {
+    background-color: darkseagreen;
+    margin-left: 252px;
+    margin-right: 252px;
+
+}
+
+#d {
+  float: right;
+  width: 230px;
+  margin-top: 0;
+  background-color: darksalmon;
+}
+
+#e {
+    text-align: center;
+    clear: both;
+    background-color: darkseagreen;
+}

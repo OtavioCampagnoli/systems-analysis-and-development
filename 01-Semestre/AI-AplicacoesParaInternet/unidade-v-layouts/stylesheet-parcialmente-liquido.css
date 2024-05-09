@@ -1,0 +1,37 @@
+div {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 5px
+}
+
+#a {
+    background-color: aquamarine;
+}
+
+#b {
+    float: left;
+    background-color: coral;
+    width: 460px;
+    margin-top: 0;
+}
+ #c {
+    background-color: darkcyan;
+    margin-left: 504px;
+    margin-right: 504px;
+    
+ }
+
+ #d{
+    background-color: darksalmon;
+    float: right;   
+    width: 460px;
+    margin-top: 0;
+ }
+
+ #e {
+    clear: left;
+    text-align: center;
+    background-color: darkseagreen;
+ }
